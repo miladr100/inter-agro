@@ -9,7 +9,13 @@
     <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
 
       <v-row justify="space-between" align="center" elevation="0" tile>
-        <v-toolbar-title class="page-title font-weight-bold text-h4 mt-16 ml-5 text-uppercase">{{pageTitle}}</v-toolbar-title>
+        <v-toolbar-title 
+          class="page-title font-weight-bold text-h4 mt-16 ml-5 text-uppercase" 
+          style="cursor: pointer;"
+          @click="$router.push('/')"
+        >{{pageTitle}}
+        </v-toolbar-title>
+
         <v-card color='light-green darken-3' class="py-2 mx-4 mt-16">
           <v-menu v-for="item in menus" :key="item.text" offset-y router :to="item.to">
             <template #activator="{ on, attrs }">
