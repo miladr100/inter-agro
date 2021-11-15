@@ -78,12 +78,29 @@
 </template>
 
 <script>
-import imagCarrousel01 from '~/static/img/index_carrousel/index_carrousel_01.jpeg';
-import imagCarrousel02 from '~/static/img/index_carrousel/index_carrousel_02.jpeg';
-import imagCarrousel03 from '~/static/img/index_carrousel/index_carrousel_03.jpeg';
-import imagCarrousel04 from '~/static/img/index_carrousel/index_carrousel_04.jpeg';
-import imagCarrousel05 from '~/static/img/index_carrousel/index_carrousel_05.jpeg';
-import imagCarrousel06 from '~/static/img/index_carrousel/index_carrousel_06.jpeg';
+import sementes01 from '~/static/img/sementes/sementes_01.jpeg';
+import sementes02 from '~/static/img/sementes/sementes_02.jpeg';
+import sementes03 from '~/static/img/sementes/sementes_03.jpeg';
+import sementes04 from '~/static/img/sementes/sementes_04.jpeg';
+import sementes05 from '~/static/img/sementes/sementes_05.jpeg';
+import sementes06 from '~/static/img/sementes/sementes_06.jpeg';
+import sementes07 from '~/static/img/sementes/sementes_07.jpeg';
+
+import frigorifico01 from '~/static/img/frigorifico/frigorifico_01.jpeg';
+import frigorifico02 from '~/static/img/frigorifico/frigorifico_02.jpeg';
+import frigorifico03 from '~/static/img/frigorifico/frigorifico_03.jpeg';
+import frigorifico04 from '~/static/img/frigorifico/frigorifico_04.jpeg';
+
+import graos01 from '~/static/img/graos/graos_01.jpeg';
+import graos02 from '~/static/img/graos/graos_02.jpeg';
+import graos03 from '~/static/img/graos/graos_03.jpeg';
+import graos04 from '~/static/img/graos/graos_04.jpeg';
+import graos05 from '~/static/img/graos/graos_05.jpeg';
+import graos06 from '~/static/img/graos/graos_06.jpeg';
+import graos07 from '~/static/img/graos/graos_07.jpeg';
+import graos08 from '~/static/img/graos/graos_08.jpeg';
+import graos09 from '~/static/img/graos/graos_09.jpeg';
+import graos10 from '~/static/img/graos/graos_10.jpeg';
 
 export default {
     data () {
@@ -97,12 +114,13 @@ export default {
             ],
             rightDirection: false,
             carrousel: [
-              { src: imagCarrousel01 },
-              { src: imagCarrousel02 },
-              { src: imagCarrousel03 },
-              { src: imagCarrousel04 },
-              { src: imagCarrousel05 },
-              { src: imagCarrousel06 },
+              { src: sementes01 },
+              { src: sementes02 },
+              { src: sementes03 },
+              { src: sementes04 },
+              { src: sementes05 },
+              { src: sementes06 },
+              { src: sementes07 },
             ]
           },
           {
@@ -113,12 +131,10 @@ export default {
             ],
             rightDirection: true,
             carrousel: [
-              { src: imagCarrousel01 },
-              { src: imagCarrousel02 },
-              { src: imagCarrousel03 },
-              { src: imagCarrousel04 },
-              { src: imagCarrousel05 },
-              { src: imagCarrousel06 },
+              { src: frigorifico01 },
+              { src: frigorifico02 },
+              { src: frigorifico03 },
+              { src: frigorifico04 },
             ]
           },
           {
@@ -131,12 +147,16 @@ export default {
             ],
             rightDirection: false,
             carrousel: [
-              { src: imagCarrousel01 },
-              { src: imagCarrousel02 },
-              { src: imagCarrousel03 },
-              { src: imagCarrousel04 },
-              { src: imagCarrousel05 },
-              { src: imagCarrousel06 },
+              { src: graos01 },
+              { src: graos02 },
+              { src: graos03 },
+              { src: graos04 },
+              { src: graos05 },
+              { src: graos06 },
+              { src: graos07 },
+              { src: graos08 },
+              { src: graos09 },
+              { src: graos10 },
             ]
           }
         ]
