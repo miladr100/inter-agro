@@ -2,7 +2,7 @@
   <v-row justify="center" class="mt-4">
     <v-row justify="center" class="mt-4">
       <v-col cols="12" sm="10" md="10">
-        <v-card class="d-flex flex-column align-center">
+        <v-card class="d-flex flex-column align-center" elevation="2" tile>
           <v-card-title class="text-h3 font-weight-bold">
             Nossos Negócios
           </v-card-title>

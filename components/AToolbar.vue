@@ -58,7 +58,7 @@ export default {
             },
             {
               text: 'Negócios',
-              to: '/bussiness',
+              to: '/business',
             },
             {
               text: 'Contato',
